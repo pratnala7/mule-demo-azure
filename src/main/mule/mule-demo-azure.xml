@@ -16,7 +16,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 				<set-payload value='#["Flow executed Dev environment with out an errors!"]' doc:name="Set Payload" doc:id="d784b200-90b6-42cc-a9ec-e4b30d178936" />
 			</when>
 			<otherwise >
-				<set-payload value='#["Flow executed Stage environment with out an errors!"]' doc:name="Set Payload" doc:id="5d141e3d-deca-4ab0-b36d-2eff8ffa7db6" />
+				<set-payload value='#["Flow executed Stage environment with out an errorss!"]' doc:name="Set Payload" doc:id="5d141e3d-deca-4ab0-b36d-2eff8ffa7db6" />
 			</otherwise>
 		</choice>
 		<logger level="INFO" doc:name="Logger" doc:id="1cd2f826-5b59-46a9-9586-5598b8811eb0" message='#["Call completed.."]'/>
