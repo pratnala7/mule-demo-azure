@@ -10,7 +10,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="mule-demo-azureFlow" doc:id="366ac3eb-0df5-4bb9-80f0-0654f88a9b4c" >
 		<http:listener doc:name="Listener" doc:id="4b642685-149b-4af2-8c5c-73435a57a6d3" config-ref="HTTP_Listener_config" path="/azure-data"/>
 		<logger level="INFO" doc:name="Logger" doc:id="df48d4e7-48ae-4da6-8950-656b6ce85851" message='#["Call initiated"]'/>
-		<set-payload value='#["Flow executed Dev environment with out an error!"]' doc:name="Set Payload" doc:id="d784b200-90b6-42cc-a9ec-e4b30d178936" />
+		<set-payload value='#["Flow executed Dev environment with out an errors!"]' doc:name="Set Payload" doc:id="d784b200-90b6-42cc-a9ec-e4b30d178936" />
 		<logger level="INFO" doc:name="Logger" doc:id="1cd2f826-5b59-46a9-9586-5598b8811eb0" message='#["Call completed.."]'/>
 	</flow>
 </mule>
